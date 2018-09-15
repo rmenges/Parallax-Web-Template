@@ -5,6 +5,15 @@ body{
   padding: 0;
 }
 
+@font-face {
+  font-family: "Corben-Bold";
+  src: url("Corben-Bold.ttf");
+}
+@font-face {
+  font-family: "Comfortaa-Light";
+  src: url("Comfortaa-Light.ttf");
+}
+
 #nav{
   position: fixed;
   top: 0;
@@ -59,9 +68,29 @@ body{
   background-attachment:fixed;
 
 }
+
+.two-col{
+  float: left;
+  width: 42%;
+  padding: 0 4%;
+  text-align: left;
+}
+
+section{
+  overflow: auto;
+  background-color: #DD7C60;
+}
+
+p{
+  color: white;
+  font: Open-sans;
+
+}
+
+
 h1{
-  font-family: arial black;
-  font-size: 50px;
+  font-family: Corben-Bold;
+  font-size: 150px;
   color: white;
   margin: 0px;
   text-align: center;
@@ -70,11 +99,10 @@ h1{
 }
 
 h2{
-  font-family: arial black;
-  font-size: 20px;
-  color: black;
-  margin: 0px;
+  font-family: Comfortaa-Light;
+  font-size: 50px;
+  color: white;
   text-align: center;
-  display: table-cell;
-  vertical-align: middle;
+
+
 }
